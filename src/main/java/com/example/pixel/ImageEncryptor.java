@@ -13,7 +13,7 @@ public class ImageEncryptor{
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         String inputPath = "src/image/wallpaper.png";
-        String outputPath = "src/image/output.jpg";
+        String outputPath = "src/image/out.png/output";
         System.out.println("enter the operation");
         String operation=scanner.nextLine();
         int key = 12345;
